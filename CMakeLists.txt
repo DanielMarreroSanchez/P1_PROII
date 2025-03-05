@@ -7,7 +7,8 @@ include(config.cmake)
 
 if(impl STREQUAL STATIC)
     add_definitions(-DSTATIC_LIST)
-    set(dependencies static_list.h static_list.c)
+    set(dependencies static_list.h static_list.c
+            static_list.c)
 elseif(impl STREQUAL DYNAMIC)
     add_definitions(-DDYNAMIC_LIST)
     set(dependencies dynamic_list.h dynamic_list.c)

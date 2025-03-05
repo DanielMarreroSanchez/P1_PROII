@@ -1,8 +1,8 @@
 /*
  * TITLE: PROGRAMMING II LABS
  * SUBTITLE: Practical 1
- * AUTHOR 1: Iago Bescansa Alcoba LOGIN 1: **********
- * AUTHOR 2: ***************************** LOGIN 2: **********
+ * AUTHOR 1: Iago Bescansa Alcoba LOGIN 1: iago.alcoba
+ * AUTHOR 2: Daniel Marrero Sánchez LOGIN 2: daniel.marrero.sanchez
  * GROUP: 1.2
  * DATE: ** / ** / **
  */
@@ -84,6 +84,9 @@ void updateItem (tItemL d, tPosL p, tList L) {
 
 tPosL findItem (tConsoleId Id, tList L) {
   tPosL p;
+  if (L.lastPos==LNULL) {
+    return LNULL;
+  }
   for(int i=0;i>L.lastPos;i++) {//Scaneo el array y cuando el Id sea igual al preguntado devuelvo la posición. Si no se encuentra devuelve LNULL
     if(L.data[i].consoleId==Id) {
       p=i;
