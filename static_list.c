@@ -11,8 +11,8 @@
 
 /*  Write your code here...  */
 
-void createEmptyList (tList L){
-  L.lastPos=LNULL;
+void createEmptyList (tList* L){
+  L->lastPos=LNULL;
 }
 
 bool isEmptyList(tList L){
@@ -45,30 +45,30 @@ tPosL previous (tPosL p, tList L) {
   }
 }
 
-bool insertItem (tItemL d, tPosL p, tList L) {
+bool insertItem (tItemL d, tPosL p, tList* L) {
   tPosL q;
-  if(L.lastPos==MAX_ARRAY-1) {//Si la lista está llena no deja insertar más
+  if(L->lastPos==MAX_ARRAY-1) {//Si la lista está llena no deja insertar más
     return false;
   }
   else {
-    L.lastPos++;
-    if (L.data[p].pos==LNULL) {
-      L.data[L.lastPos]=d;
+    L->lastPos++;
+    if (L->data[p].pos==LNULL) {
+      L->data[L->lastPos]=d;
     }
     else {
-      for(q=L.lastPos;q>=p;q--) { //q>p para que la última q sea L.data[p]
-        L.data[q]=L.data[q-1];
+      for(q=L->lastPos;q>=p;q--) { //q>p para que la última q sea L.data[p]
+        L->data[q]=L->data[q-1];
       }
-      L.data[p]=d;
+      L->data[p]=d;
     }
   }
 }
 
-void deleteAtPosition (tPosL p, tList L){
-  for (tPosL q = p;q<=L.lastPos;p++) {
-    L.data[q]=L.data[q+1];//Copio la celda siguiente en la actual hasta llegar a la última posición, que copia el valor nulo
+void deleteAtPosition (tPosL p, tList* L){
+  for (tPosL q = p;q<=L->lastPos;p++) {
+    L->data[q]=L->data[q+1];//Copio la celda siguiente en la actual hasta llegar a la última posición, que copia el valor nulo
   }
-  L.lastPos--;
+  L->lastPos--;
 
 }
 
@@ -76,9 +76,9 @@ tItemL getItem (tPosL p, tList L) {
   return L.data[p];
 }
 
-void updateItem (tItemL d, tPosL p, tList L) {
-  if(L.data[p].pos!=LNULL) {
-    L.data[p]=d;
+void updateItem (tItemL d, tPosL p, tList* L) {
+  if(L->data[p].pos!=LNULL) {
+    L->data[p]=d;
   }
 }
 
