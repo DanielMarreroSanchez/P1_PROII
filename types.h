@@ -11,7 +11,6 @@ typedef int tBidCounter;
 typedef int tPosL;
 
 typedef struct tItemL {
-    tPosL pos;//Añado place para poder comparar las diferentes casillas del array como enteros
     tUserId seller;
     tConsoleId consoleId;
     tConsoleBrand consoleBrand;
