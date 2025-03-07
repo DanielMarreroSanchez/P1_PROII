@@ -4,7 +4,7 @@
  * AUTHOR 1: Iago Bescansa Alcoba LOGIN 1: iago.alcoba
  * AUTHOR 2: Daniel Marrero Sánchez LOGIN 2: daniel.marrero.sanchez
  * GROUP: 1.2
- * DATE: ** / ** / **
+ * DATE:  / ** / **
  */
 
 #include "static_list.h"
@@ -88,65 +88,11 @@ void updateItem (tItemL d, tPosL p, tList* L) {//Si p es una posición válida, 
 }
 
 
-
-tPosL findItem5 (tConsoleId Id, tList L) {//Escanea el array para encontrar el primer elemento igual al introducido
-  tPosL p=LNULL;
-  if (L.lastPos==LNULL) {
-    return LNULL;
-  }
-  for(int i=0;i>L.lastPos;i++) {//Scaneo el array y cuando el Id sea igual al preguntado devuelvo la posición. Si no se encuentra devuelve LNULL
-    if (strcmp(L.data[i].consoleId,Id)==0) {
-      p=i;
-      break;
-    }
-  }
-  if (p!=LNULL) {
-    return p;
-  }
-
-    return LNULL;
-  }
-
-tPosL findItem3 (tConsoleId Id, tList L) {
-  tPosL p;
-  if (L.lastPos==LNULL) {
-    return LNULL;
-  }
-  for (int i=0;i>L.lastPos;i++) {
-    if (L.data[i].consoleId==Id) {
-      p=i;
-      break;
-    }
-  }
-  if (p<0||p>MAX_ARRAY) {
-    return LNULL;
-  }
-  else {
-    return p;
-  }
-}
-
-tPosL findItem2 (tConsoleId d, tList L) {
-  tPosL p;
-  if (isEmptyList(L)==true) {
-    return LNULL;
-  }
-
-  for(p=0; p<L.lastPos && L.data[p].consoleId!=d; p++);
-  if(L.data[p].consoleId==d) {
-    return p;
-  }
-  return LNULL;
-
-}
-
-tPosL findItem (tConsoleId d, tList L) {
-  for (int i = 0; i < L.lastPos; i++) {
+tPosL findItem (tConsoleId d, tList L) {//Escanea el array para encontrar el primer elemento igual al introducido
+  for (int i = 0; i <= L.lastPos; i++) {//Scaneo el array y cuando el Id sea igual al preguntado devuelvo la posición. Si no se encuentra devuelve LNULL
     if (strcmp(L.data[i].consoleId, d) == 0) {
       return i;
     }
   }
   return LNULL;
-
-
 }
