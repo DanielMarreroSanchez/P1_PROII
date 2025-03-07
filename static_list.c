@@ -55,6 +55,7 @@ bool insertItem (tItemL d, tPosL p, tList* L) {//Inserta un elemento en la posic
   if(L->lastPos==MAX_ARRAY-1) {//Si la lista está llena no deja insertar más
     return false;//No se insertó correctamente
   }
+
   else {
     L->lastPos++;
     if (p>=L->lastPos) {
