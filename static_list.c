@@ -72,7 +72,7 @@ bool insertItem (tItemL d, tPosL p, tList* L) {//Inserta un elemento en la posic
 }
 
 void deleteAtPosition (tPosL p, tList* L){//Elimina de la lista el elmento en la posición introducida sin dejar espacios
-  for (tPosL q = p;q<=L->lastPos;p++) {
+  for (tPosL q = p;q<=L->lastPos;q++) {
     L->data[q]=L->data[q+1];//Copio la celda siguiente en la actual hasta llegar a la última posición, que copia el valor nulo
   }
   L->lastPos--;
