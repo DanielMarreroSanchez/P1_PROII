@@ -11,15 +11,16 @@
 #define DYNAMIC_LIST_H
 
 #include <stdbool.h>
+#include <stdlib.h>
 #include "types.h"
 #define LNULL -1
 #define MAX_ARRAY 25
 
 /*  Write your code here...  */
-typedef struct tList* tPosL;
+
 typedef struct {
     tItemL data[MAX_ARRAY];
-    tPosL next;
+    struct tList* next;
 } tList;
 
 void createEmptyList (tList* L);
