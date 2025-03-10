@@ -10,3 +10,7 @@
 #include "dynamic_list.h"
 
 /*  Write your code here...  */
+
+void createEmptyList (tList* L){
+  L->next = NULL;
+}
