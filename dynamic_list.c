@@ -28,63 +28,47 @@ tPosL first(tList L) {
 }
 
 tPosL last(tList L) {
-    tPosL p;
+    tPosL p=0;
     tList* Q=L.next;
-    for(Q; Q->next != NULL; Q = L.next->next, p++ );
+
+    if (isEmptyList(L)== true) {
+        return LNULL;
+    }
+
+    for(Q; Q->next != NULL; Q = Q->next, p++ );
     return p;
 }
 
 tPosL previous(tPosL p, tList L) {
-    tPosL q;
-
-    if(p==L.pos){
-        return LNULL;
-
-    }else {
-        return L.prev->pos;
+  if (p == LNULL||p==first(L)) {
+      return LNULL;
+  }
+  else{
+      return p-1;
     }
 }
 
 tPosL next(tPosL p, tList L) {
-  tList Q;
-  for(Q=L ; Q.pos != LNULL; Q.next = Q.next->next);
-  return Q.next->pos;
+  if (p == LNULL||p>=last(L)) {
+    return LNULL;
+  }
+  else {
+      return p+1;
+  }
 }
 
 void updateitem( tItemL d, tPosL p, tList* L) {
-
-    for(p=L.pos; p != LNULL; p = L.next->pos);
-    L->data = d;
+  if (p!=LNULL||p<=last(*L)||p>=first(*L)) {}
+    tList* K=L;
+    tPosL q;
+    for(q=0; q < p; q++,K=K->next );
+    K->data = d;
 
 }
 
 
 
 
-void copyList(tList L, tList * M) {
-    tPosL p, q, r;
-    bool ret= true;
+bool insertItem (tItemL d, tPosL p, tList* L){
 
-    createEmptyList(M);
-    if (isEmptyList(L)) {
-        p=L;
-        while((p!=NULL) && createEmptyList(&r) {
-            r->data = p->data;
-            r->next = NULL;
-            if(p==L) {
-                *M=r;
-                 q=r;
-
-            }else {
-                q->next=r;
-                q=r;
-            }
-            p = p->next;
-        }
-        if(p!=NULL) {
-            deleteList(M);
-            det=false;
-    }
-return ret;
-
-    }
+}
