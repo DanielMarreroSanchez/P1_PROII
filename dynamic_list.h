@@ -18,9 +18,10 @@
 
 /*  Write your code here...  */
 
-typedef struct {
-    tItemL data[MAX_ARRAY];
+typedef struct tList {
+    tItemL data;
     struct tList* next;
+    struct tList* prev;
 } tList;
 
 void createEmptyList (tList* L);

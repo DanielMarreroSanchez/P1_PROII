@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
-#ifdef DYNAMIC_LIST
-#include "dynamic_list.h"
-#endif
-#ifdef STATIC_LIST
-#include "static_list.h"
-#endif
+
+#include "dynamic_list.c"
+
+
 
 void print_list(tList list) {
     tPosL pos;
