@@ -53,7 +53,7 @@ tPosL previous(tPosL p, tList L) {
     }
 }
 
-tPosL next(tPosL p, tList L) {
+tPosL next(tPosL p, tList L) {//Si la posición introducida es la última o nula devuelve LNULL, si no devuelve la siguiente posición
   if (p == LNULL||p>=last(L)) {
     return LNULL;
   }
@@ -117,6 +117,4 @@ bool insertItem (tItemL d, tPosL p, tList* L){
     return true;
   }
   else return false;
-
-
 }
