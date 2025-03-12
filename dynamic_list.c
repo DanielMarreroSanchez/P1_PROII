@@ -44,15 +44,6 @@ tPosL last(tList L) {
     return p;
 }
 
-tPosL next(tPosL p, tList L) {
-  if (p == LNULL||p>=last(L)) {
-    return LNULL;
-  }
-  else {
-      return p+1;
-  }
-}
-
 tPosL previous(tPosL p, tList L) {
   if (p == LNULL||p==first(L)) {
       return LNULL;
@@ -61,6 +52,26 @@ tPosL previous(tPosL p, tList L) {
       return p-1;
     }
 }
+
+tPosL next(tPosL p, tList L) {//Si la posición introducida es la última o nula devuelve LNULL, si no devuelve la siguiente posición
+  if (p == LNULL||p>=last(L)) {
+    return LNULL;
+  }
+  else {
+      return p+1;
+  }
+}
+
+void updateitem( tItemL d, tPosL p, tList* L) {
+  if (p!=LNULL||p<=last(*L)||p>=first(*L)) {//Condiciones para que se actualice el elemento
+    tList* K=L;
+    tPosL q;
+    for(q=0; q < p; q++,K=K->next );//K apunta a la posición p de la lista
+    K->data = d;
+  }
+
+}
+
 
 bool insertItem (tItemL d, tPosL p, tList* L){
   tList* K=L;
@@ -107,27 +118,3 @@ bool insertItem (tItemL d, tPosL p, tList* L){
   }
   else return false;
 }
-
-void deleteAtPosition (tPosL p, tList* L){
-  	tList* K=L;
-    tPosL q=first(*L);
-	while(q<p){//K apunta a la posición p de la lista
-          K = K->next;
-          q++;
-    }
-    free(K->next);
-    free(K->prev);
-
-}
-
-void updateitem( tItemL d, tPosL p, tList* L) {
-  if (p!=LNULL||p<=last(*L)||p>=first(*L)) {//Condiciones para que se actualice el elemento
-    tList* K=L;
-    tPosL q;
-    for(q=0; q < p; q++,K=K->next );//K apunta a la posición p de la lista
-    K->data = d;
-  }
-
-}
-
-
