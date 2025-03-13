@@ -13,7 +13,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
 #include "types.h"
-#define LNULL -1
+#define LNULL NULL
 
 /*  Write your code here...  */
 
@@ -21,7 +21,7 @@ typedef struct tNode* tPosL;
 typedef struct tNode {
     tItemL data;
     tPosL next;
-};
+} tNode;
 
 typedef tPosL tList;
 
@@ -35,5 +35,5 @@ bool insertItem (tItemL d, tPosL p, tList* L);
 tItemL getItem (tPosL p, tList L);
 void updateItem (tItemL d, tPosL p, tList* L);
 tPosL findItem (tConsoleId, tList L);
-void deleteatposition(tPosL p, tList* L);
+void deleteAtPosition(tPosL p, tList* L);
 #endif
