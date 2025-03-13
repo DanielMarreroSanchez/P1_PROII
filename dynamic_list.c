@@ -76,7 +76,7 @@ bool insertItem (tItemL d, tPosL p, tList* L){
       Q=LNULL;
       Q=malloc(sizeof(tList));
       Q->data=d;
-      Q->next=L;
+      Q->next=*L;
       return true;
     }
     tPosL R, Y;
