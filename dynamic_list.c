@@ -12,39 +12,39 @@
 /*  Write your code here...  */
 
 void createEmptyList (tList* L){
-  L=NULL;
+  L=LNULL;
 }
 
 bool isEmptyList (tList L) {
-    return L == NULL;
+    return L == LNULL;
 }
 
 tPosL first(tList L) {
   tPosL P;
-   P=NULL;
-  *P=L;
+   P=LNULL;
+  P=L;
 
   return P;
 }
 
 tPosL last(tList L) {
 
-    tPosL Q=NULL;
-    Q=L.next;
+    tPosL Q=LNULL;
+    Q=L->next;
 
-  while(Q != NULL){
+  while(Q != LNULL){
       Q = Q->next;
     }
     return Q;
 }
 
 tPosL previous(tPosL p, tList L) {
-  if (p == NULL||p==first(L)) {
-      return NULL;
+  if (p == LNULL||p==first(L)) {
+      return LNULL;
   }
   else{
-    tPosL Q=NULL;
-    *Q=L;
+    tPosL Q=LNULL;
+    Q=L;
     while (Q->next!=p){
       Q=Q->next;
     }
@@ -53,8 +53,8 @@ tPosL previous(tPosL p, tList L) {
 }
 
 tPosL next(tPosL p, tList L) { //Si la posición introducida es la última o nula devuelve LNULL, si no devuelve la siguiente posición
-  if (p == NULL) {
-    return NULL;
+  if (p == LNULL) {
+    return LNULL;
   }
   else {
       return p->next;
@@ -62,7 +62,7 @@ tPosL next(tPosL p, tList L) { //Si la posición introducida es la última o nul
 }
 
 void updateitem( tItemL d, tPosL p, tList* L) {
-  if (p!=NULL) {//Condiciones para que se actualice el elemento
+  if (p!=LNULL) {//Condiciones para que se actualice el elemento
     p->data = d;
   }
 }
@@ -70,17 +70,17 @@ void updateitem( tItemL d, tPosL p, tList* L) {
 bool insertItem (tItemL d, tPosL p, tList* L){
   tList* K=L;
 
- if (p!=NULL){
+ if (p!=LNULL){
     if (p==first(*L)){
       tPosL Q;
-      Q=NULL;
+      Q=LNULL;
       Q=malloc(sizeof(tList));
       Q->data=d;
       Q->next=L;
       return true;
     }
     tPosL R, Y;
-    R=NULL;
+    R=LNULL;
     Y=malloc(sizeof(tList));
     R=previous(p,*L);
     Y->next=p;
@@ -88,20 +88,20 @@ bool insertItem (tItemL d, tPosL p, tList* L){
     R->next=Y;
     return true;
  }
-  else if (p == NULL){
+  else if (p == LNULL){
    tPosL T;
-   T=NULL;
-   T=malloc(sizeof(struct tList));
+   T=LNULL;
+   T=malloc(sizeof(struct tNode));
    T=last(*L);
    T->data=d;
-   T->next=NULL;
+   T->next=LNULL;
    return true;
  }
   else return false;
 }
 
-void deleteatposition(tPosL p, tList* L){
-  tPosL q=NULL;
+void deleteAtPosition(tPosL p, tList* L){
+  tPosL q=LNULL;
   q=previous(p,*L);
   q->next=p->next;
   free(p);
@@ -112,10 +112,10 @@ tItemL getItem (tPosL p, tList L){
 }
 
 tPosL finditem(tConsoleId a, tList L){
-  while(L->data.consoleId!=a){
-    L=L->next;
-
-
-
+  tList Q=L;
+  while(Q->data.consoleId!=a){
+    Q=Q->next;
+  }
+  return Q;
 }
 
