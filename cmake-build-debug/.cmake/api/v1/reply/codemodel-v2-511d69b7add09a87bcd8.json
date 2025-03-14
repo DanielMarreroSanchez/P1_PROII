@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-4f33a0415e60dcbd61b1.json",
+					"jsonFile" : "target-main-Debug-e3655cc6c0462b627018.json",
 					"name" : "main",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_lists::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_lists-Debug-9bd1ca73d61a7eabc4af.json",
+					"jsonFile" : "target-test_lists-Debug-4d92d63d1ab6498706ac.json",
 					"name" : "test_lists",
 					"projectIndex" : 0
 				}
@@ -58,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/EQUIPO/CLionProjects/P1/cmake-build-debug",
-		"source" : "C:/Users/EQUIPO/CLionProjects/P1"
+		"build" : "C:/Users/122124/CLionProjects/P1_PROII/cmake-build-debug",
+		"source" : "C:/Users/122124/CLionProjects/P1_PROII"
 	},
 	"version" : 
 	{

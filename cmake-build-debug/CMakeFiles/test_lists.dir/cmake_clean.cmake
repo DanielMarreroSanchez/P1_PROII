@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/test_lists.exe"
-  "C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/test_lists.exe.manifest"
-  "C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/test_lists.pdb"
+  "C:/Users/122124/CLionProjects/P1_PROII/bin/test_lists.exe"
+  "C:/Users/122124/CLionProjects/P1_PROII/bin/test_lists.exe.manifest"
+  "C:/Users/122124/CLionProjects/P1_PROII/bin/test_lists.pdb"
   "CMakeFiles/test_lists.dir/dynamic_list.c.obj"
   "CMakeFiles/test_lists.dir/dynamic_list.c.obj.d"
   "CMakeFiles/test_lists.dir/test.c.obj"

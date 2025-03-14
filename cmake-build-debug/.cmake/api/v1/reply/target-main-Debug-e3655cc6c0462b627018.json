@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "C:/Users/EQUIPO/CLionProjects/P1/bin/main.exe"
+			"path" : "C:/Users/122124/CLionProjects/P1_PROII/bin/main.exe"
 		},
 		{
-			"path" : "C:/Users/EQUIPO/CLionProjects/P1/bin/main.pdb"
+			"path" : "C:/Users/122124/CLionProjects/P1_PROII/bin/main.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -41,13 +41,13 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 17,
+				"line" : 12,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 9,
+				"line" : 17,
 				"parent" : 0
 			}
 		]
@@ -73,11 +73,11 @@
 			[
 				{
 					"backtrace" : 3,
-					"define" : "INPUT_FILE=\"new.txt\""
+					"define" : "DYNAMIC_LIST"
 				},
 				{
 					"backtrace" : 4,
-					"define" : "STATIC_LIST"
+					"define" : "INPUT_FILE=\"new.txt\""
 				}
 			],
 			"language" : "C",
@@ -157,13 +157,13 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "static_list.h",
+			"path" : "dynamic_list.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "static_list.c",
+			"path" : "dynamic_list.c",
 			"sourceGroupIndex" : 0
 		}
 	],
