@@ -4,7 +4,7 @@
  * AUTHOR 1: Iago Bescansa Alcoba LOGIN 1: **********
  * AUTHOR 2: Daniel Marrero Sánchez LOGIN 2: **********
  * GROUP: 1.2
- * DATE: ** / ** / **
+ * DATE: 14 / 03 / 2025
  */
 
 #include "dynamic_list.h"
@@ -148,12 +148,17 @@ tItemL getItem (tPosL p, tList L){
 }
 
 tPosL findItem(tConsoleId a, tList L){
-  tList Q;
-  for(Q=L;Q->data.consoleId!=a && Q!=last(L);Q=Q->next);
-  if (Q==last(L)&&Q->data.consoleId!=a) {
 
-    return Q;
+  for (tPosL Q=L;Q!=LNULL;Q=Q->next){
+    if (strcmp(Q->data.consoleId, a)==0) {
+      return Q;
+    }
   }
-  return Q;
+
+  return LNULL;
+
+
+
+
 }
 
