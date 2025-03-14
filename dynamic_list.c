@@ -73,10 +73,10 @@ bool checkPointer(tPosL p, tList L) {
     return true;
   }
 
-  tPosL Q=L;
+  tPosL Q;
 
 
-  for(Q;Q->next!=p||Q->next!=LNULL;Q=Q->next);
+  for(Q=L;Q->next!=p && Q->next!=LNULL;Q=Q->next);
   if(Q!=last(L)) {
     return true;
   }
@@ -137,6 +137,10 @@ void deleteAtPosition(tPosL p, tList* L){
     q->next=p->next;
     free(p);
   }
+  else {
+    *L=(*L)->next;
+    free(p);
+  }
 }
 
 tItemL getItem (tPosL p, tList L){
@@ -144,9 +148,11 @@ tItemL getItem (tPosL p, tList L){
 }
 
 tPosL findItem(tConsoleId a, tList L){
-  tList Q=L;
-  while(Q->data.consoleId!=a){
-    Q=Q->next;
+  tList Q;
+  for(Q=L;Q->data.consoleId!=a && Q!=last(L);Q=Q->next);
+  if (Q==last(L)&&Q->data.consoleId!=a) {
+
+    return Q;
   }
   return Q;
 }
