@@ -14,6 +14,7 @@
 #define LNULL -1
 #define MAX_ARRAY 25
 /*  Write your code here...  */
+typedef int tPosL;
 
 typedef struct {
   tItemL data[MAX_ARRAY];
