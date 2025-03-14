@@ -58,7 +58,7 @@ bool insertItem (tItemL d, tPosL p, tList* L) {//Inserta un elemento en la posic
 
   else {
     L->lastPos++;
-    if (p>=L->lastPos) {
+    if (p>L->lastPos||p==LNULL) {
       L->data[L->lastPos]=d;
       return true;//Se insertó correctamente
     }
