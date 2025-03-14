@@ -8,10 +8,8 @@ typedef char tConsoleId[NAME_LENGTH_LIMIT];
 typedef enum {nintendo, sega} tConsoleBrand;
 typedef float tConsolePrice;
 typedef int tBidCounter;
-typedef int tPosL;
 
 typedef struct tItemL {
-    tPosL pos;//Añado place para poder comparar las diferentes casillas del array como enteros
     tUserId seller;
     tConsoleId consoleId;
     tConsoleBrand consoleBrand;

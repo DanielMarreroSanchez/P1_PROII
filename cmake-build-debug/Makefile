@@ -50,19 +50,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Users\122124\AppData\Local\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Users\122124\AppData\Local\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\122124\CLionProjects\P1_PROII
+CMAKE_SOURCE_DIR = C:\Users\EQUIPO\CLionProjects\P1_PROII
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\122124\CLionProjects\P1_PROII\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\EQUIPO\CLionProjects\P1_PROII\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = C:\Users\122124\CLionProjects\P1_PROII\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	"C:\Users\122124\AppData\Local\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,7 +80,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	"C:\Users\122124\AppData\Local\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -89,9 +89,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\122124\CLionProjects\P1_PROII\cmake-build-debug\CMakeFiles C:\Users\122124\CLionProjects\P1_PROII\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\EQUIPO\CLionProjects\P1_PROII\cmake-build-debug\CMakeFiles C:\Users\EQUIPO\CLionProjects\P1_PROII\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\122124\CLionProjects\P1_PROII\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\EQUIPO\CLionProjects\P1_PROII\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -144,6 +144,33 @@ test_lists/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_lists.dir\build.make CMakeFiles/test_lists.dir/build
 .PHONY : test_lists/fast
 
+dynamic_list.obj: dynamic_list.c.obj
+.PHONY : dynamic_list.obj
+
+# target to build an object file
+dynamic_list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/dynamic_list.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_lists.dir\build.make CMakeFiles/test_lists.dir/dynamic_list.c.obj
+.PHONY : dynamic_list.c.obj
+
+dynamic_list.i: dynamic_list.c.i
+.PHONY : dynamic_list.i
+
+# target to preprocess a source file
+dynamic_list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/dynamic_list.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_lists.dir\build.make CMakeFiles/test_lists.dir/dynamic_list.c.i
+.PHONY : dynamic_list.c.i
+
+dynamic_list.s: dynamic_list.c.s
+.PHONY : dynamic_list.s
+
+# target to generate assembly for a file
+dynamic_list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/dynamic_list.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_lists.dir\build.make CMakeFiles/test_lists.dir/dynamic_list.c.s
+.PHONY : dynamic_list.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -167,33 +194,6 @@ main.s: main.c.s
 main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.s
 .PHONY : main.c.s
-
-static_list.obj: static_list.c.obj
-.PHONY : static_list.obj
-
-# target to build an object file
-static_list.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/static_list.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_lists.dir\build.make CMakeFiles/test_lists.dir/static_list.c.obj
-.PHONY : static_list.c.obj
-
-static_list.i: static_list.c.i
-.PHONY : static_list.i
-
-# target to preprocess a source file
-static_list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/static_list.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_lists.dir\build.make CMakeFiles/test_lists.dir/static_list.c.i
-.PHONY : static_list.c.i
-
-static_list.s: static_list.c.s
-.PHONY : static_list.s
-
-# target to generate assembly for a file
-static_list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/static_list.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_lists.dir\build.make CMakeFiles/test_lists.dir/static_list.c.s
-.PHONY : static_list.c.s
 
 test.obj: test.c.obj
 .PHONY : test.obj
@@ -229,12 +229,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... main
 	@echo ... test_lists
+	@echo ... dynamic_list.obj
+	@echo ... dynamic_list.i
+	@echo ... dynamic_list.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... static_list.obj
-	@echo ... static_list.i
-	@echo ... static_list.s
 	@echo ... test.obj
 	@echo ... test.i
 	@echo ... test.s
