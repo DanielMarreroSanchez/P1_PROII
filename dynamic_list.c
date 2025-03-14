@@ -11,15 +11,15 @@
 
 /*  Write your code here...  */
 
-void createEmptyList (tList* L){
+void createEmptyList (tList* L){ //Inicializa la lista nula.
   *L=LNULL;
 }
 
-bool isEmptyList (tList L) {
+bool isEmptyList (tList L) { // Comprueba si la lista se encuentra nula.
     return L == LNULL;
 }
 
-tPosL first(tList L) {
+tPosL first(tList L) { //Devuelve el primer elemento de la lista
   tPosL P;
    P=LNULL;
   P=L;
@@ -27,22 +27,22 @@ tPosL first(tList L) {
   return P;
 }
 
-tPosL last(tList L) {
+tPosL last(tList L) { //Devuelve el último elemento de la lista.
 
   tPosL Q=L;
 
 
-  while(Q->next != LNULL){
+  while(Q->next != LNULL){ //Recorre la lista hasta encontrarse con el final de esta, devolviendo el valor anterior.
       Q = Q->next;
     }
     return Q;
 }
 
-tPosL previous(tPosL p, tList L) {
-  if (p == LNULL||p==first(L)) {
+tPosL previous(tPosL p, tList L) { //Devuelve el anterior elemento del seleccionado.
+  if (p == LNULL||p==first(L)) { //En caso inválido devuelve nulo.
       return LNULL;
   }
-  else{
+  else{  //En caso correcto, recorre la lista hasta encontrar un elemento, para devolver su anterior.
     tPosL Q=LNULL;
     Q=L;
     while (Q->next!=p){
