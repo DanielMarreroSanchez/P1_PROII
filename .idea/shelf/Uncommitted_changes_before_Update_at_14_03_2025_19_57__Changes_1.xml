@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Update_at_14_03_2025_19_57_[Changes]1" date="1741978690543" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_03_2025_19_57_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 14/03/2025 19:57 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/a.exe" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/a.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_03_2025_19_57_[Changes]1/a.exe" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/.ninja_deps" />
+    <option name="AFTER_PATH" value="cmake-build-debug/.ninja_deps" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_03_2025_19_57_[Changes]1/.ninja_deps" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_C.bin" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_C.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_03_2025_19_57_[Changes]1/CMakeDetermineCompilerABI_C.bin" />
+  </binary>
+</changelist>

@@ -1,0 +1,4320 @@
+Index: cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-d32d0be0afa66ff62aae.json
+===================================================================
+diff --git a/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-d32d0be0afa66ff62aae.json b/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-d32d0be0afa66ff62aae.json
+deleted file mode 100644
+--- a/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-d32d0be0afa66ff62aae.json	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
++++ /dev/null	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
+@@ -1,473 +0,0 @@
+-{
+-	"inputs" : 
+-	[
+-		{
+-			"path" : "CMakeLists.txt"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in"
+-		},
+-		{
+-			"isGenerated" : true,
+-			"path" : "cmake-build-debug/CMakeFiles/3.30.5/CMakeSystem.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in"
+-		},
+-		{
+-			"isGenerated" : true,
+-			"path" : "cmake-build-debug/CMakeFiles/3.30.5/CMakeCCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineRCCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCCompiler.cmake.in"
+-		},
+-		{
+-			"isGenerated" : true,
+-			"path" : "cmake-build-debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestRCCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in"
+-		},
+-		{
+-			"isGenerated" : true,
+-			"path" : "cmake-build-debug/CMakeFiles/3.30.5/CMakeCCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake"
+-		},
+-		{
+-			"path" : "config.cmake"
+-		}
+-	],
+-	"kind" : "cmakeFiles",
+-	"paths" : 
+-	{
+-		"build" : "C:/Users/EQUIPO/CLionProjects/P1/cmake-build-debug",
+-		"source" : "C:/Users/EQUIPO/CLionProjects/P1"
+-	},
+-	"version" : 
+-	{
+-		"major" : 1,
+-		"minor" : 1
+-	}
+-}
+Index: cmake-build-debug/CMakeFiles/main.dir/compiler_depend.ts
+===================================================================
+diff --git a/cmake-build-debug/CMakeFiles/main.dir/compiler_depend.ts b/cmake-build-debug/CMakeFiles/main.dir/compiler_depend.ts
+deleted file mode 100644
+--- a/cmake-build-debug/CMakeFiles/main.dir/compiler_depend.ts	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
++++ /dev/null	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
+@@ -1,2 +0,0 @@
+-# CMAKE generated file: DO NOT EDIT!
+-# Timestamp file for compiler generated dependencies management for main.
+Index: cmake-build-debug/CMakeFiles/test_lists.dir/cmake_clean.cmake
+===================================================================
+diff --git a/cmake-build-debug/CMakeFiles/test_lists.dir/cmake_clean.cmake b/cmake-build-debug/CMakeFiles/test_lists.dir/cmake_clean.cmake
+deleted file mode 100644
+--- a/cmake-build-debug/CMakeFiles/test_lists.dir/cmake_clean.cmake	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
++++ /dev/null	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
+@@ -1,15 +0,0 @@
+-file(REMOVE_RECURSE
+-  "C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/test_lists.exe"
+-  "C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/test_lists.exe.manifest"
+-  "C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/test_lists.pdb"
+-  "CMakeFiles/test_lists.dir/dynamic_list.c.obj"
+-  "CMakeFiles/test_lists.dir/dynamic_list.c.obj.d"
+-  "CMakeFiles/test_lists.dir/test.c.obj"
+-  "CMakeFiles/test_lists.dir/test.c.obj.d"
+-  "libtest_lists.dll.a"
+-)
+-
+-# Per-language clean rules from dependency scanning.
+-foreach(lang C)
+-  include(CMakeFiles/test_lists.dir/cmake_clean_${lang}.cmake OPTIONAL)
+-endforeach()
+Index: cmake-build-debug/CMakeFiles/main.dir/link.txt
+===================================================================
+diff --git a/cmake-build-debug/CMakeFiles/main.dir/link.txt b/cmake-build-debug/CMakeFiles/main.dir/link.txt
+deleted file mode 100644
+--- a/cmake-build-debug/CMakeFiles/main.dir/link.txt	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
++++ /dev/null	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
+@@ -1,3 +0,0 @@
+-"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\main.dir/objects.a
+-C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ar.exe qc CMakeFiles\main.dir/objects.a @CMakeFiles\main.dir\objects1.rsp
+-C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\main.dir/objects.a -Wl,--no-whole-archive -o C:\Users\EQUIPO\CLionProjects\P1_PROII\bin\main.exe -Wl,--out-implib,libmain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\main.dir\linkLibs.rsp
+Index: cmake-build-debug/.cmake/api/v1/reply/index-2025-03-14T16-11-34-0941.json
+===================================================================
+diff --git a/cmake-build-debug/.cmake/api/v1/reply/index-2025-03-14T16-11-34-0941.json b/cmake-build-debug/.cmake/api/v1/reply/index-2025-03-14T16-11-34-0941.json
+deleted file mode 100644
+--- a/cmake-build-debug/.cmake/api/v1/reply/index-2025-03-14T16-11-34-0941.json	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
++++ /dev/null	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
+@@ -1,108 +0,0 @@
+-{
+-	"cmake" : 
+-	{
+-		"generator" : 
+-		{
+-			"multiConfig" : false,
+-			"name" : "MinGW Makefiles"
+-		},
+-		"paths" : 
+-		{
+-			"cmake" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe",
+-			"cpack" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cpack.exe",
+-			"ctest" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/ctest.exe",
+-			"root" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30"
+-		},
+-		"version" : 
+-		{
+-			"isDirty" : false,
+-			"major" : 3,
+-			"minor" : 30,
+-			"patch" : 5,
+-			"string" : "3.30.5",
+-			"suffix" : ""
+-		}
+-	},
+-	"objects" : 
+-	[
+-		{
+-			"jsonFile" : "codemodel-v2-91d3fd0afe92c8fdbdfe.json",
+-			"kind" : "codemodel",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 7
+-			}
+-		},
+-		{
+-			"jsonFile" : "cache-v2-64468f926023d8edd7ce.json",
+-			"kind" : "cache",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 0
+-			}
+-		},
+-		{
+-			"jsonFile" : "cmakeFiles-v1-6cc4c858d3c6afd49993.json",
+-			"kind" : "cmakeFiles",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 1
+-			}
+-		},
+-		{
+-			"jsonFile" : "toolchains-v1-cda0c955fbb914d2ef7a.json",
+-			"kind" : "toolchains",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		}
+-	],
+-	"reply" : 
+-	{
+-		"cache-v2" : 
+-		{
+-			"jsonFile" : "cache-v2-64468f926023d8edd7ce.json",
+-			"kind" : "cache",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 0
+-			}
+-		},
+-		"cmakeFiles-v1" : 
+-		{
+-			"jsonFile" : "cmakeFiles-v1-6cc4c858d3c6afd49993.json",
+-			"kind" : "cmakeFiles",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 1
+-			}
+-		},
+-		"codemodel-v2" : 
+-		{
+-			"jsonFile" : "codemodel-v2-91d3fd0afe92c8fdbdfe.json",
+-			"kind" : "codemodel",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 7
+-			}
+-		},
+-		"toolchains-v1" : 
+-		{
+-			"jsonFile" : "toolchains-v1-cda0c955fbb914d2ef7a.json",
+-			"kind" : "toolchains",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		}
+-	}
+-}
+Index: cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c89e3d556ed01b536163.json
+===================================================================
+diff --git a/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c89e3d556ed01b536163.json b/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c89e3d556ed01b536163.json
+deleted file mode 100644
+--- a/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c89e3d556ed01b536163.json	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
++++ /dev/null	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
+@@ -1,69 +0,0 @@
+-{
+-	"configurations" : 
+-	[
+-		{
+-			"directories" : 
+-			[
+-				{
+-					"build" : ".",
+-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+-					"minimumCMakeVersion" : 
+-					{
+-						"string" : "3.5"
+-					},
+-					"projectIndex" : 0,
+-					"source" : ".",
+-					"targetIndexes" : 
+-					[
+-						0,
+-						1
+-					]
+-				}
+-			],
+-			"name" : "Debug",
+-			"projects" : 
+-			[
+-				{
+-					"directoryIndexes" : 
+-					[
+-						0
+-					],
+-					"name" : "P1",
+-					"targetIndexes" : 
+-					[
+-						0,
+-						1
+-					]
+-				}
+-			],
+-			"targets" : 
+-			[
+-				{
+-					"directoryIndex" : 0,
+-					"id" : "main::@6890427a1f51a3e7e1df",
+-					"jsonFile" : "target-main-Debug-4f33a0415e60dcbd61b1.json",
+-					"name" : "main",
+-					"projectIndex" : 0
+-				},
+-				{
+-					"directoryIndex" : 0,
+-					"id" : "test_lists::@6890427a1f51a3e7e1df",
+-					"jsonFile" : "target-test_lists-Debug-9bd1ca73d61a7eabc4af.json",
+-					"name" : "test_lists",
+-					"projectIndex" : 0
+-				}
+-			]
+-		}
+-	],
+-	"kind" : "codemodel",
+-	"paths" : 
+-	{
+-		"build" : "C:/Users/EQUIPO/CLionProjects/P1/cmake-build-debug",
+-		"source" : "C:/Users/EQUIPO/CLionProjects/P1"
+-	},
+-	"version" : 
+-	{
+-		"major" : 2,
+-		"minor" : 7
+-	}
+-}
+Index: cmake-build-debug/.cmake/api/v1/reply/cache-v2-9c22a835091287dd51ed.json
+===================================================================
+diff --git a/cmake-build-debug/.cmake/api/v1/reply/cache-v2-9c22a835091287dd51ed.json b/cmake-build-debug/.cmake/api/v1/reply/cache-v2-9c22a835091287dd51ed.json
+deleted file mode 100644
+--- a/cmake-build-debug/.cmake/api/v1/reply/cache-v2-9c22a835091287dd51ed.json	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
++++ /dev/null	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
+@@ -1,1183 +0,0 @@
+-{
+-	"entries" : 
+-	[
+-		{
+-			"name" : "CMAKE_ADDR2LINE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/addr2line.exe"
+-		},
+-		{
+-			"name" : "CMAKE_AR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/ar.exe"
+-		},
+-		{
+-			"name" : "CMAKE_BUILD_TYPE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel ..."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "Debug"
+-		},
+-		{
+-			"name" : "CMAKE_CACHEFILE_DIR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "This is the directory where this CMakeCache.txt was created"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "c:/Users/EQUIPO/CLionProjects/P1/cmake-build-debug"
+-		},
+-		{
+-			"name" : "CMAKE_CACHE_MAJOR_VERSION",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Major version of cmake used to create the current loaded cache"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "3"
+-		},
+-		{
+-			"name" : "CMAKE_CACHE_MINOR_VERSION",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Minor version of cmake used to create the current loaded cache"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "30"
+-		},
+-		{
+-			"name" : "CMAKE_CACHE_PATCH_VERSION",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Patch version of cmake used to create the current loaded cache"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "5"
+-		},
+-		{
+-			"name" : "CMAKE_COLOR_DIAGNOSTICS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Enable colored diagnostics throughout."
+-				}
+-			],
+-			"type" : "BOOL",
+-			"value" : "ON"
+-		},
+-		{
+-			"name" : "CMAKE_COMMAND",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to CMake executable."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe"
+-		},
+-		{
+-			"name" : "CMAKE_CPACK_COMMAND",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to cpack program executable."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cpack.exe"
+-		},
+-		{
+-			"name" : "CMAKE_CTEST_COMMAND",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to ctest program executable."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/ctest.exe"
+-		},
+-		{
+-			"name" : "CMAKE_C_COMPILER",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "C compiler"
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe"
+-		},
+-		{
+-			"name" : "CMAKE_C_COMPILER_AR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc-ar.exe"
+-		},
+-		{
+-			"name" : "CMAKE_C_COMPILER_RANLIB",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc-ranlib.exe"
+-		},
+-		{
+-			"name" : "CMAKE_C_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the C compiler during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_C_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the C compiler during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-g"
+-		},
+-		{
+-			"name" : "CMAKE_C_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the C compiler during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-Os -DNDEBUG"
+-		},
+-		{
+-			"name" : "CMAKE_C_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the C compiler during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-O3 -DNDEBUG"
+-		},
+-		{
+-			"name" : "CMAKE_C_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the C compiler during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-O2 -g -DNDEBUG"
+-		},
+-		{
+-			"name" : "CMAKE_C_STANDARD_LIBRARIES",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Libraries linked by default with all C applications."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32"
+-		},
+-		{
+-			"name" : "CMAKE_DLLTOOL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/dlltool.exe"
+-		},
+-		{
+-			"name" : "CMAKE_EXECUTABLE_FORMAT",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Executable file format"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "Unknown"
+-		},
+-		{
+-			"name" : "CMAKE_EXE_LINKER_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXE_LINKER_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXE_LINKER_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXE_LINKER_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Enable/Disable output of compile commands during generation."
+-				}
+-			],
+-			"type" : "BOOL",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXTRA_GENERATOR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Name of external makefile project generator."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_FIND_PACKAGE_REDIRECTS_DIR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake."
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : "C:/Users/EQUIPO/CLionProjects/P1/cmake-build-debug/CMakeFiles/pkgRedirects"
+-		},
+-		{
+-			"name" : "CMAKE_GENERATOR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Name of generator."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "Ninja"
+-		},
+-		{
+-			"name" : "CMAKE_GENERATOR_INSTANCE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Generator instance identifier."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_GENERATOR_PLATFORM",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Name of generator platform."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_GENERATOR_TOOLSET",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Name of generator toolset."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_GNUtoMS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Convert GNU import libraries to MS format (requires Visual Studio)"
+-				}
+-			],
+-			"type" : "BOOL",
+-			"value" : "OFF"
+-		},
+-		{
+-			"name" : "CMAKE_HOME_DIRECTORY",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Source directory with the top level CMakeLists.txt file for this project"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "C:/Users/EQUIPO/CLionProjects/P1"
+-		},
+-		{
+-			"name" : "CMAKE_INSTALL_PREFIX",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Install path prefix, prepended onto install directories."
+-				}
+-			],
+-			"type" : "PATH",
+-			"value" : "C:/Program Files (x86)/P1"
+-		},
+-		{
+-			"name" : "CMAKE_LINKER",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/ld.exe"
+-		},
+-		{
+-			"name" : "CMAKE_MAKE_PROGRAM",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "make program"
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe"
+-		},
+-		{
+-			"name" : "CMAKE_MODULE_LINKER_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of modules during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_MODULE_LINKER_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of modules during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of modules during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of modules during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of modules during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_NM",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/nm.exe"
+-		},
+-		{
+-			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "number of local generators"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "1"
+-		},
+-		{
+-			"name" : "CMAKE_OBJCOPY",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/objcopy.exe"
+-		},
+-		{
+-			"name" : "CMAKE_OBJDUMP",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/objdump.exe"
+-		},
+-		{
+-			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Platform information initialized"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "1"
+-		},
+-		{
+-			"name" : "CMAKE_PROJECT_DESCRIPTION",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_PROJECT_HOMEPAGE_URL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_PROJECT_NAME",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : "P1"
+-		},
+-		{
+-			"name" : "CMAKE_RANLIB",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/ranlib.exe"
+-		},
+-		{
+-			"name" : "CMAKE_RC_COMPILER",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "RC compiler"
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/windres.exe"
+-		},
+-		{
+-			"name" : "CMAKE_RC_COMPILER_WORKS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : ""
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "1"
+-		},
+-		{
+-			"name" : "CMAKE_RC_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags for Windows Resource Compiler during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_RC_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags for Windows Resource Compiler during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_RC_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags for Windows Resource Compiler during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_RC_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags for Windows Resource Compiler during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_RC_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags for Windows Resource Compiler during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_READELF",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/readelf.exe"
+-		},
+-		{
+-			"name" : "CMAKE_ROOT",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to CMake installation."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30"
+-		},
+-		{
+-			"name" : "CMAKE_SHARED_LINKER_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of shared libraries during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_SHARED_LINKER_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of shared libraries during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of shared libraries during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of shared libraries during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of shared libraries during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_SKIP_INSTALL_RPATH",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "If set, runtime paths are not added when installing shared libraries, but are added when building."
+-				}
+-			],
+-			"type" : "BOOL",
+-			"value" : "NO"
+-		},
+-		{
+-			"name" : "CMAKE_SKIP_RPATH",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "If set, runtime paths are not added when using shared libraries."
+-				}
+-			],
+-			"type" : "BOOL",
+-			"value" : "NO"
+-		},
+-		{
+-			"name" : "CMAKE_STATIC_LINKER_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of static libraries during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_STATIC_LINKER_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of static libraries during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of static libraries during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of static libraries during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of static libraries during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_STRIP",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/strip.exe"
+-		},
+-		{
+-			"name" : "CMAKE_TAPI",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "CMAKE_TAPI-NOTFOUND"
+-		},
+-		{
+-			"name" : "CMAKE_VERBOSE_MAKEFILE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "If this value is on, makefiles will be generated without the .SILENT directive, and all commands will be echoed to the console during the make.  This is useful for debugging only. With Visual Studio IDE projects all commands are done without /nologo."
+-				}
+-			],
+-			"type" : "BOOL",
+-			"value" : "FALSE"
+-		},
+-		{
+-			"name" : "P1_BINARY_DIR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : "C:/Users/EQUIPO/CLionProjects/P1/cmake-build-debug"
+-		},
+-		{
+-			"name" : "P1_IS_TOP_LEVEL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : "ON"
+-		},
+-		{
+-			"name" : "P1_SOURCE_DIR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : "C:/Users/EQUIPO/CLionProjects/P1"
+-		},
+-		{
+-			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "linker supports push/pop state"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "TRUE"
+-		}
+-	],
+-	"kind" : "cache",
+-	"version" : 
+-	{
+-		"major" : 2,
+-		"minor" : 0
+-	}
+-}
+Index: cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake
+===================================================================
+diff --git a/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake b/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake
+deleted file mode 100644
+--- a/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
++++ /dev/null	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
+@@ -1,16 +0,0 @@
+-# CMAKE generated file: DO NOT EDIT!
+-# Generated by "MinGW Makefiles" Generator, CMake Version 3.30
+-
+-# Relative path conversion top directories.
+-set(CMAKE_RELATIVE_PATH_TOP_SOURCE "C:/Users/EQUIPO/CLionProjects/P1_PROII")
+-set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/Users/EQUIPO/CLionProjects/P1_PROII/cmake-build-debug")
+-
+-# Force unix paths in dependencies.
+-set(CMAKE_FORCE_UNIX_PATHS 1)
+-
+-
+-# The C and CXX include file regular expressions for this directory.
+-set(CMAKE_C_INCLUDE_REGEX_SCAN "^.*$")
+-set(CMAKE_C_INCLUDE_REGEX_COMPLAIN "^$")
+-set(CMAKE_CXX_INCLUDE_REGEX_SCAN ${CMAKE_C_INCLUDE_REGEX_SCAN})
+-set(CMAKE_CXX_INCLUDE_REGEX_COMPLAIN ${CMAKE_C_INCLUDE_REGEX_COMPLAIN})
+Index: cmake-build-debug/CMakeFiles/test_lists.dir/DependInfo.cmake
+===================================================================
+diff --git a/cmake-build-debug/CMakeFiles/test_lists.dir/DependInfo.cmake b/cmake-build-debug/CMakeFiles/test_lists.dir/DependInfo.cmake
+deleted file mode 100644
+--- a/cmake-build-debug/CMakeFiles/test_lists.dir/DependInfo.cmake	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
++++ /dev/null	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
+@@ -1,24 +0,0 @@
+-
+-# Consider dependencies only in project.
+-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+-
+-# The set of languages for which implicit dependencies are needed:
+-set(CMAKE_DEPENDS_LANGUAGES
+-  )
+-
+-# The set of dependency files which are needed:
+-set(CMAKE_DEPENDS_DEPENDENCY_FILES
+-  "C:/Users/EQUIPO/CLionProjects/P1_PROII/dynamic_list.c" "CMakeFiles/test_lists.dir/dynamic_list.c.obj" "gcc" "CMakeFiles/test_lists.dir/dynamic_list.c.obj.d"
+-  "C:/Users/EQUIPO/CLionProjects/P1_PROII/test.c" "CMakeFiles/test_lists.dir/test.c.obj" "gcc" "CMakeFiles/test_lists.dir/test.c.obj.d"
+-  )
+-
+-# Targets to which this target links which contain Fortran sources.
+-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+-  )
+-
+-# Targets to which this target links which contain Fortran sources.
+-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+-  )
+-
+-# Fortran module output directory.
+-set(CMAKE_Fortran_TARGET_MODULE_DIR "")
+Index: cmake-build-debug/CMakeFiles/test_lists.dir/compiler_depend.ts
+===================================================================
+diff --git a/cmake-build-debug/CMakeFiles/test_lists.dir/compiler_depend.ts b/cmake-build-debug/CMakeFiles/test_lists.dir/compiler_depend.ts
+deleted file mode 100644
+--- a/cmake-build-debug/CMakeFiles/test_lists.dir/compiler_depend.ts	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
++++ /dev/null	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
+@@ -1,2 +0,0 @@
+-# CMAKE generated file: DO NOT EDIT!
+-# Timestamp file for compiler generated dependencies management for test_lists.
+Index: cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake
+===================================================================
+diff --git a/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake b/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake
+deleted file mode 100644
+--- a/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
++++ /dev/null	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
+@@ -1,24 +0,0 @@
+-
+-# Consider dependencies only in project.
+-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+-
+-# The set of languages for which implicit dependencies are needed:
+-set(CMAKE_DEPENDS_LANGUAGES
+-  )
+-
+-# The set of dependency files which are needed:
+-set(CMAKE_DEPENDS_DEPENDENCY_FILES
+-  "C:/Users/EQUIPO/CLionProjects/P1_PROII/dynamic_list.c" "CMakeFiles/main.dir/dynamic_list.c.obj" "gcc" "CMakeFiles/main.dir/dynamic_list.c.obj.d"
+-  "C:/Users/EQUIPO/CLionProjects/P1_PROII/main.c" "CMakeFiles/main.dir/main.c.obj" "gcc" "CMakeFiles/main.dir/main.c.obj.d"
+-  )
+-
+-# Targets to which this target links which contain Fortran sources.
+-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+-  )
+-
+-# Targets to which this target links which contain Fortran sources.
+-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+-  )
+-
+-# Fortran module output directory.
+-set(CMAKE_Fortran_TARGET_MODULE_DIR "")
+Index: cmake-build-debug/.cmake/api/v1/reply/cache-v2-64468f926023d8edd7ce.json
+===================================================================
+diff --git a/cmake-build-debug/.cmake/api/v1/reply/cache-v2-64468f926023d8edd7ce.json b/cmake-build-debug/.cmake/api/v1/reply/cache-v2-64468f926023d8edd7ce.json
+deleted file mode 100644
+--- a/cmake-build-debug/.cmake/api/v1/reply/cache-v2-64468f926023d8edd7ce.json	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
++++ /dev/null	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
+@@ -1,1187 +0,0 @@
+-{
+-	"entries" : 
+-	[
+-		{
+-			"name" : "CMAKE_ADDR2LINE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/addr2line.exe"
+-		},
+-		{
+-			"name" : "CMAKE_AR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/ar.exe"
+-		},
+-		{
+-			"name" : "CMAKE_BUILD_TYPE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel ..."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "Debug"
+-		},
+-		{
+-			"name" : "CMAKE_CACHEFILE_DIR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "This is the directory where this CMakeCache.txt was created"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "c:/Users/EQUIPO/CLionProjects/P1_PROII/cmake-build-debug"
+-		},
+-		{
+-			"name" : "CMAKE_CACHE_MAJOR_VERSION",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Major version of cmake used to create the current loaded cache"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "3"
+-		},
+-		{
+-			"name" : "CMAKE_CACHE_MINOR_VERSION",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Minor version of cmake used to create the current loaded cache"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "30"
+-		},
+-		{
+-			"name" : "CMAKE_CACHE_PATCH_VERSION",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Patch version of cmake used to create the current loaded cache"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "5"
+-		},
+-		{
+-			"name" : "CMAKE_COLOR_DIAGNOSTICS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Enable colored diagnostics throughout."
+-				}
+-			],
+-			"type" : "BOOL",
+-			"value" : "ON"
+-		},
+-		{
+-			"name" : "CMAKE_COLOR_MAKEFILE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : ""
+-				}
+-			],
+-			"type" : "UNINITIALIZED",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_COMMAND",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to CMake executable."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe"
+-		},
+-		{
+-			"name" : "CMAKE_CPACK_COMMAND",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to cpack program executable."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cpack.exe"
+-		},
+-		{
+-			"name" : "CMAKE_CTEST_COMMAND",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to ctest program executable."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/ctest.exe"
+-		},
+-		{
+-			"name" : "CMAKE_C_COMPILER",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "C compiler"
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe"
+-		},
+-		{
+-			"name" : "CMAKE_C_COMPILER_AR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc-ar.exe"
+-		},
+-		{
+-			"name" : "CMAKE_C_COMPILER_RANLIB",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc-ranlib.exe"
+-		},
+-		{
+-			"name" : "CMAKE_C_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the C compiler during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_C_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the C compiler during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-g"
+-		},
+-		{
+-			"name" : "CMAKE_C_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the C compiler during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-Os -DNDEBUG"
+-		},
+-		{
+-			"name" : "CMAKE_C_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the C compiler during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-O3 -DNDEBUG"
+-		},
+-		{
+-			"name" : "CMAKE_C_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the C compiler during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-O2 -g -DNDEBUG"
+-		},
+-		{
+-			"name" : "CMAKE_C_STANDARD_LIBRARIES",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Libraries linked by default with all C applications."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32"
+-		},
+-		{
+-			"name" : "CMAKE_DLLTOOL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/dlltool.exe"
+-		},
+-		{
+-			"name" : "CMAKE_EXECUTABLE_FORMAT",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Executable file format"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "Unknown"
+-		},
+-		{
+-			"name" : "CMAKE_EXE_LINKER_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXE_LINKER_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXE_LINKER_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXE_LINKER_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXTRA_GENERATOR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Name of external makefile project generator."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_FIND_PACKAGE_REDIRECTS_DIR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake."
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : "C:/Users/EQUIPO/CLionProjects/P1_PROII/cmake-build-debug/CMakeFiles/pkgRedirects"
+-		},
+-		{
+-			"name" : "CMAKE_GENERATOR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Name of generator."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "MinGW Makefiles"
+-		},
+-		{
+-			"name" : "CMAKE_GENERATOR_INSTANCE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Generator instance identifier."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_GENERATOR_PLATFORM",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Name of generator platform."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_GENERATOR_TOOLSET",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Name of generator toolset."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_GNUtoMS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Convert GNU import libraries to MS format (requires Visual Studio)"
+-				}
+-			],
+-			"type" : "BOOL",
+-			"value" : "OFF"
+-		},
+-		{
+-			"name" : "CMAKE_HOME_DIRECTORY",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Source directory with the top level CMakeLists.txt file for this project"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "C:/Users/EQUIPO/CLionProjects/P1_PROII"
+-		},
+-		{
+-			"name" : "CMAKE_INSTALL_PREFIX",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Install path prefix, prepended onto install directories."
+-				}
+-			],
+-			"type" : "PATH",
+-			"value" : "C:/Program Files (x86)/P1"
+-		},
+-		{
+-			"name" : "CMAKE_LINKER",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/ld.exe"
+-		},
+-		{
+-			"name" : "CMAKE_MAKE_PROGRAM",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "make program"
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe"
+-		},
+-		{
+-			"name" : "CMAKE_MODULE_LINKER_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of modules during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_MODULE_LINKER_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of modules during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of modules during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of modules during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of modules during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_NM",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/nm.exe"
+-		},
+-		{
+-			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "number of local generators"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "1"
+-		},
+-		{
+-			"name" : "CMAKE_OBJCOPY",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/objcopy.exe"
+-		},
+-		{
+-			"name" : "CMAKE_OBJDUMP",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/objdump.exe"
+-		},
+-		{
+-			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Platform information initialized"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "1"
+-		},
+-		{
+-			"name" : "CMAKE_PROJECT_DESCRIPTION",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_PROJECT_HOMEPAGE_URL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_PROJECT_NAME",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : "P1"
+-		},
+-		{
+-			"name" : "CMAKE_RANLIB",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/ranlib.exe"
+-		},
+-		{
+-			"name" : "CMAKE_RC_COMPILER",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "RC compiler"
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/windres.exe"
+-		},
+-		{
+-			"name" : "CMAKE_RC_COMPILER_WORKS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : ""
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "1"
+-		},
+-		{
+-			"name" : "CMAKE_RC_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags for Windows Resource Compiler during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_RC_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags for Windows Resource Compiler during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_RC_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags for Windows Resource Compiler during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_RC_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags for Windows Resource Compiler during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_RC_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags for Windows Resource Compiler during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_READELF",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/readelf.exe"
+-		},
+-		{
+-			"name" : "CMAKE_ROOT",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to CMake installation."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30"
+-		},
+-		{
+-			"name" : "CMAKE_SHARED_LINKER_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of shared libraries during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_SHARED_LINKER_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of shared libraries during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of shared libraries during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of shared libraries during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of shared libraries during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_SKIP_INSTALL_RPATH",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "If set, runtime paths are not added when installing shared libraries, but are added when building."
+-				}
+-			],
+-			"type" : "BOOL",
+-			"value" : "NO"
+-		},
+-		{
+-			"name" : "CMAKE_SKIP_RPATH",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "If set, runtime paths are not added when using shared libraries."
+-				}
+-			],
+-			"type" : "BOOL",
+-			"value" : "NO"
+-		},
+-		{
+-			"name" : "CMAKE_STATIC_LINKER_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of static libraries during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_STATIC_LINKER_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of static libraries during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of static libraries during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of static libraries during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of static libraries during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_STRIP",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/strip.exe"
+-		},
+-		{
+-			"name" : "CMAKE_TAPI",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "CMAKE_TAPI-NOTFOUND"
+-		},
+-		{
+-			"name" : "CMAKE_VERBOSE_MAKEFILE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "If this value is on, makefiles will be generated without the .SILENT directive, and all commands will be echoed to the console during the make.  This is useful for debugging only. With Visual Studio IDE projects all commands are done without /nologo."
+-				}
+-			],
+-			"type" : "BOOL",
+-			"value" : "FALSE"
+-		},
+-		{
+-			"name" : "P1_BINARY_DIR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : "C:/Users/EQUIPO/CLionProjects/P1_PROII/cmake-build-debug"
+-		},
+-		{
+-			"name" : "P1_IS_TOP_LEVEL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : "ON"
+-		},
+-		{
+-			"name" : "P1_SOURCE_DIR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : "C:/Users/EQUIPO/CLionProjects/P1_PROII"
+-		},
+-		{
+-			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "linker supports push/pop state"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "TRUE"
+-		}
+-	],
+-	"kind" : "cache",
+-	"version" : 
+-	{
+-		"major" : 2,
+-		"minor" : 0
+-	}
+-}
+Index: cmake-build-debug/CMakeFiles/test_lists.dir/link.txt
+===================================================================
+diff --git a/cmake-build-debug/CMakeFiles/test_lists.dir/link.txt b/cmake-build-debug/CMakeFiles/test_lists.dir/link.txt
+deleted file mode 100644
+--- a/cmake-build-debug/CMakeFiles/test_lists.dir/link.txt	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
++++ /dev/null	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
+@@ -1,3 +0,0 @@
+-"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\test_lists.dir/objects.a
+-C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ar.exe qc CMakeFiles\test_lists.dir/objects.a @CMakeFiles\test_lists.dir\objects1.rsp
+-C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\test_lists.dir/objects.a -Wl,--no-whole-archive -o C:\Users\EQUIPO\CLionProjects\P1_PROII\bin\test_lists.exe -Wl,--out-implib,libtest_lists.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\test_lists.dir\linkLibs.rsp
+Index: cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake
+===================================================================
+diff --git a/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake b/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake
+deleted file mode 100644
+--- a/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
++++ /dev/null	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
+@@ -1,15 +0,0 @@
+-file(REMOVE_RECURSE
+-  "C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/main.exe"
+-  "C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/main.exe.manifest"
+-  "C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/main.pdb"
+-  "CMakeFiles/main.dir/dynamic_list.c.obj"
+-  "CMakeFiles/main.dir/dynamic_list.c.obj.d"
+-  "CMakeFiles/main.dir/main.c.obj"
+-  "CMakeFiles/main.dir/main.c.obj.d"
+-  "libmain.dll.a"
+-)
+-
+-# Per-language clean rules from dependency scanning.
+-foreach(lang C)
+-  include(CMakeFiles/main.dir/cmake_clean_${lang}.cmake OPTIONAL)
+-endforeach()
+Index: cmake-build-debug/.cmake/api/v1/reply/index-2025-03-14T16-19-33-0630.json
+===================================================================
+diff --git a/cmake-build-debug/.cmake/api/v1/reply/index-2025-03-14T16-19-33-0630.json b/cmake-build-debug/.cmake/api/v1/reply/index-2025-03-14T16-19-33-0630.json
+deleted file mode 100644
+--- a/cmake-build-debug/.cmake/api/v1/reply/index-2025-03-14T16-19-33-0630.json	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
++++ /dev/null	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
+@@ -1,108 +0,0 @@
+-{
+-	"cmake" : 
+-	{
+-		"generator" : 
+-		{
+-			"multiConfig" : false,
+-			"name" : "Ninja"
+-		},
+-		"paths" : 
+-		{
+-			"cmake" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe",
+-			"cpack" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cpack.exe",
+-			"ctest" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/ctest.exe",
+-			"root" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30"
+-		},
+-		"version" : 
+-		{
+-			"isDirty" : false,
+-			"major" : 3,
+-			"minor" : 30,
+-			"patch" : 5,
+-			"string" : "3.30.5",
+-			"suffix" : ""
+-		}
+-	},
+-	"objects" : 
+-	[
+-		{
+-			"jsonFile" : "codemodel-v2-c89e3d556ed01b536163.json",
+-			"kind" : "codemodel",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 7
+-			}
+-		},
+-		{
+-			"jsonFile" : "cache-v2-9c22a835091287dd51ed.json",
+-			"kind" : "cache",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 0
+-			}
+-		},
+-		{
+-			"jsonFile" : "cmakeFiles-v1-d32d0be0afa66ff62aae.json",
+-			"kind" : "cmakeFiles",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 1
+-			}
+-		},
+-		{
+-			"jsonFile" : "toolchains-v1-cda0c955fbb914d2ef7a.json",
+-			"kind" : "toolchains",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		}
+-	],
+-	"reply" : 
+-	{
+-		"cache-v2" : 
+-		{
+-			"jsonFile" : "cache-v2-9c22a835091287dd51ed.json",
+-			"kind" : "cache",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 0
+-			}
+-		},
+-		"cmakeFiles-v1" : 
+-		{
+-			"jsonFile" : "cmakeFiles-v1-d32d0be0afa66ff62aae.json",
+-			"kind" : "cmakeFiles",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 1
+-			}
+-		},
+-		"codemodel-v2" : 
+-		{
+-			"jsonFile" : "codemodel-v2-c89e3d556ed01b536163.json",
+-			"kind" : "codemodel",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 7
+-			}
+-		},
+-		"toolchains-v1" : 
+-		{
+-			"jsonFile" : "toolchains-v1-cda0c955fbb914d2ef7a.json",
+-			"kind" : "toolchains",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		}
+-	}
+-}
+Index: cmake-build-debug/.cmake/api/v1/reply/target-main-Debug-4f33a0415e60dcbd61b1.json
+===================================================================
+diff --git a/cmake-build-debug/.cmake/api/v1/reply/target-main-Debug-4f33a0415e60dcbd61b1.json b/cmake-build-debug/.cmake/api/v1/reply/target-main-Debug-4f33a0415e60dcbd61b1.json
+deleted file mode 100644
+--- a/cmake-build-debug/.cmake/api/v1/reply/target-main-Debug-4f33a0415e60dcbd61b1.json	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
++++ /dev/null	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
+@@ -1,171 +0,0 @@
+-{
+-	"artifacts" : 
+-	[
+-		{
+-			"path" : "C:/Users/EQUIPO/CLionProjects/P1/bin/main.exe"
+-		},
+-		{
+-			"path" : "C:/Users/EQUIPO/CLionProjects/P1/bin/main.pdb"
+-		}
+-	],
+-	"backtrace" : 1,
+-	"backtraceGraph" : 
+-	{
+-		"commands" : 
+-		[
+-			"add_executable",
+-			"target_compile_options",
+-			"add_definitions"
+-		],
+-		"files" : 
+-		[
+-			"CMakeLists.txt"
+-		],
+-		"nodes" : 
+-		[
+-			{
+-				"file" : 0
+-			},
+-			{
+-				"command" : 0,
+-				"file" : 0,
+-				"line" : 18,
+-				"parent" : 0
+-			},
+-			{
+-				"command" : 1,
+-				"file" : 0,
+-				"line" : 20,
+-				"parent" : 0
+-			},
+-			{
+-				"command" : 2,
+-				"file" : 0,
+-				"line" : 17,
+-				"parent" : 0
+-			},
+-			{
+-				"command" : 2,
+-				"file" : 0,
+-				"line" : 9,
+-				"parent" : 0
+-			}
+-		]
+-	},
+-	"compileGroups" : 
+-	[
+-		{
+-			"compileCommandFragments" : 
+-			[
+-				{
+-					"fragment" : "-g -std=gnu99 -fdiagnostics-color=always"
+-				},
+-				{
+-					"backtrace" : 2,
+-					"fragment" : "-Wall"
+-				},
+-				{
+-					"backtrace" : 2,
+-					"fragment" : "-Wextra"
+-				}
+-			],
+-			"defines" : 
+-			[
+-				{
+-					"backtrace" : 3,
+-					"define" : "INPUT_FILE=\"new.txt\""
+-				},
+-				{
+-					"backtrace" : 4,
+-					"define" : "STATIC_LIST"
+-				}
+-			],
+-			"language" : "C",
+-			"languageStandard" : 
+-			{
+-				"backtraces" : 
+-				[
+-					1
+-				],
+-				"standard" : "99"
+-			},
+-			"sourceIndexes" : 
+-			[
+-				0,
+-				3
+-			]
+-		}
+-	],
+-	"id" : "main::@6890427a1f51a3e7e1df",
+-	"link" : 
+-	{
+-		"commandFragments" : 
+-		[
+-			{
+-				"fragment" : "-g",
+-				"role" : "flags"
+-			},
+-			{
+-				"fragment" : "",
+-				"role" : "flags"
+-			},
+-			{
+-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+-				"role" : "libraries"
+-			}
+-		],
+-		"language" : "C"
+-	},
+-	"name" : "main",
+-	"nameOnDisk" : "main.exe",
+-	"paths" : 
+-	{
+-		"build" : ".",
+-		"source" : "."
+-	},
+-	"sourceGroups" : 
+-	[
+-		{
+-			"name" : "Source Files",
+-			"sourceIndexes" : 
+-			[
+-				0,
+-				3
+-			]
+-		},
+-		{
+-			"name" : "Header Files",
+-			"sourceIndexes" : 
+-			[
+-				1,
+-				2
+-			]
+-		}
+-	],
+-	"sources" : 
+-	[
+-		{
+-			"backtrace" : 1,
+-			"compileGroupIndex" : 0,
+-			"path" : "main.c",
+-			"sourceGroupIndex" : 0
+-		},
+-		{
+-			"backtrace" : 1,
+-			"path" : "types.h",
+-			"sourceGroupIndex" : 1
+-		},
+-		{
+-			"backtrace" : 1,
+-			"path" : "static_list.h",
+-			"sourceGroupIndex" : 1
+-		},
+-		{
+-			"backtrace" : 1,
+-			"compileGroupIndex" : 0,
+-			"path" : "static_list.c",
+-			"sourceGroupIndex" : 0
+-		}
+-	],
+-	"type" : "EXECUTABLE"
+-}
+Index: cmake-build-debug/CMakeFiles/Makefile.cmake
+===================================================================
+diff --git a/cmake-build-debug/CMakeFiles/Makefile.cmake b/cmake-build-debug/CMakeFiles/Makefile.cmake
+deleted file mode 100644
+--- a/cmake-build-debug/CMakeFiles/Makefile.cmake	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
++++ /dev/null	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
+@@ -1,119 +0,0 @@
+-# CMAKE generated file: DO NOT EDIT!
+-# Generated by "MinGW Makefiles" Generator, CMake Version 3.30
+-
+-# The generator used is:
+-set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
+-
+-# The top level Makefile was generated from the following files:
+-set(CMAKE_MAKEFILE_DEPENDS
+-  "CMakeCache.txt"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineRCCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeMinGWFindMake.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCCompiler.cmake.in"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestRCCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake"
+-  "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake"
+-  "C:/Users/EQUIPO/CLionProjects/P1_PROII/CMakeLists.txt"
+-  "CMakeFiles/3.30.5/CMakeCCompiler.cmake"
+-  "CMakeFiles/3.30.5/CMakeRCCompiler.cmake"
+-  "CMakeFiles/3.30.5/CMakeSystem.cmake"
+-  "C:/Users/EQUIPO/CLionProjects/P1_PROII/config.cmake"
+-  )
+-
+-# The corresponding makefile is:
+-set(CMAKE_MAKEFILE_OUTPUTS
+-  "Makefile"
+-  "CMakeFiles/cmake.check_cache"
+-  )
+-
+-# Byproducts of CMake generate step:
+-set(CMAKE_MAKEFILE_PRODUCTS
+-  "CMakeFiles/3.30.5/CMakeSystem.cmake"
+-  "CMakeFiles/3.30.5/CMakeCCompiler.cmake"
+-  "CMakeFiles/3.30.5/CMakeRCCompiler.cmake"
+-  "CMakeFiles/3.30.5/CMakeCCompiler.cmake"
+-  "CMakeFiles/CMakeDirectoryInformation.cmake"
+-  )
+-
+-# Dependency information for all targets:
+-set(CMAKE_DEPEND_INFO_FILES
+-  "CMakeFiles/main.dir/DependInfo.cmake"
+-  "CMakeFiles/test_lists.dir/DependInfo.cmake"
+-  )
+Index: cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-6cc4c858d3c6afd49993.json
+===================================================================
+diff --git a/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-6cc4c858d3c6afd49993.json b/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-6cc4c858d3c6afd49993.json
+deleted file mode 100644
+--- a/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-6cc4c858d3c6afd49993.json	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
++++ /dev/null	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
+@@ -1,478 +0,0 @@
+-{
+-	"inputs" : 
+-	[
+-		{
+-			"path" : "CMakeLists.txt"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in"
+-		},
+-		{
+-			"isGenerated" : true,
+-			"path" : "cmake-build-debug/CMakeFiles/3.30.5/CMakeSystem.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeMinGWFindMake.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in"
+-		},
+-		{
+-			"isGenerated" : true,
+-			"path" : "cmake-build-debug/CMakeFiles/3.30.5/CMakeCCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineRCCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCCompiler.cmake.in"
+-		},
+-		{
+-			"isGenerated" : true,
+-			"path" : "cmake-build-debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestRCCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in"
+-		},
+-		{
+-			"isGenerated" : true,
+-			"path" : "cmake-build-debug/CMakeFiles/3.30.5/CMakeCCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake"
+-		},
+-		{
+-			"path" : "config.cmake"
+-		}
+-	],
+-	"kind" : "cmakeFiles",
+-	"paths" : 
+-	{
+-		"build" : "C:/Users/EQUIPO/CLionProjects/P1_PROII/cmake-build-debug",
+-		"source" : "C:/Users/EQUIPO/CLionProjects/P1_PROII"
+-	},
+-	"version" : 
+-	{
+-		"major" : 1,
+-		"minor" : 1
+-	}
+-}
+Index: cmake-build-debug/.cmake/api/v1/reply/target-test_lists-Debug-9bd1ca73d61a7eabc4af.json
+===================================================================
+diff --git a/cmake-build-debug/.cmake/api/v1/reply/target-test_lists-Debug-9bd1ca73d61a7eabc4af.json b/cmake-build-debug/.cmake/api/v1/reply/target-test_lists-Debug-9bd1ca73d61a7eabc4af.json
+deleted file mode 100644
+--- a/cmake-build-debug/.cmake/api/v1/reply/target-test_lists-Debug-9bd1ca73d61a7eabc4af.json	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
++++ /dev/null	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
+@@ -1,171 +0,0 @@
+-{
+-	"artifacts" : 
+-	[
+-		{
+-			"path" : "C:/Users/EQUIPO/CLionProjects/P1/bin/test_lists.exe"
+-		},
+-		{
+-			"path" : "C:/Users/EQUIPO/CLionProjects/P1/bin/test_lists.pdb"
+-		}
+-	],
+-	"backtrace" : 1,
+-	"backtraceGraph" : 
+-	{
+-		"commands" : 
+-		[
+-			"add_executable",
+-			"target_compile_options",
+-			"add_definitions"
+-		],
+-		"files" : 
+-		[
+-			"CMakeLists.txt"
+-		],
+-		"nodes" : 
+-		[
+-			{
+-				"file" : 0
+-			},
+-			{
+-				"command" : 0,
+-				"file" : 0,
+-				"line" : 19,
+-				"parent" : 0
+-			},
+-			{
+-				"command" : 1,
+-				"file" : 0,
+-				"line" : 21,
+-				"parent" : 0
+-			},
+-			{
+-				"command" : 2,
+-				"file" : 0,
+-				"line" : 17,
+-				"parent" : 0
+-			},
+-			{
+-				"command" : 2,
+-				"file" : 0,
+-				"line" : 9,
+-				"parent" : 0
+-			}
+-		]
+-	},
+-	"compileGroups" : 
+-	[
+-		{
+-			"compileCommandFragments" : 
+-			[
+-				{
+-					"fragment" : "-g -std=gnu99 -fdiagnostics-color=always"
+-				},
+-				{
+-					"backtrace" : 2,
+-					"fragment" : "-Wall"
+-				},
+-				{
+-					"backtrace" : 2,
+-					"fragment" : "-Wextra"
+-				}
+-			],
+-			"defines" : 
+-			[
+-				{
+-					"backtrace" : 3,
+-					"define" : "INPUT_FILE=\"new.txt\""
+-				},
+-				{
+-					"backtrace" : 4,
+-					"define" : "STATIC_LIST"
+-				}
+-			],
+-			"language" : "C",
+-			"languageStandard" : 
+-			{
+-				"backtraces" : 
+-				[
+-					1
+-				],
+-				"standard" : "99"
+-			},
+-			"sourceIndexes" : 
+-			[
+-				1,
+-				3
+-			]
+-		}
+-	],
+-	"id" : "test_lists::@6890427a1f51a3e7e1df",
+-	"link" : 
+-	{
+-		"commandFragments" : 
+-		[
+-			{
+-				"fragment" : "-g",
+-				"role" : "flags"
+-			},
+-			{
+-				"fragment" : "",
+-				"role" : "flags"
+-			},
+-			{
+-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+-				"role" : "libraries"
+-			}
+-		],
+-		"language" : "C"
+-	},
+-	"name" : "test_lists",
+-	"nameOnDisk" : "test_lists.exe",
+-	"paths" : 
+-	{
+-		"build" : ".",
+-		"source" : "."
+-	},
+-	"sourceGroups" : 
+-	[
+-		{
+-			"name" : "Header Files",
+-			"sourceIndexes" : 
+-			[
+-				0,
+-				2
+-			]
+-		},
+-		{
+-			"name" : "Source Files",
+-			"sourceIndexes" : 
+-			[
+-				1,
+-				3
+-			]
+-		}
+-	],
+-	"sources" : 
+-	[
+-		{
+-			"backtrace" : 1,
+-			"path" : "types.h",
+-			"sourceGroupIndex" : 0
+-		},
+-		{
+-			"backtrace" : 1,
+-			"compileGroupIndex" : 0,
+-			"path" : "test.c",
+-			"sourceGroupIndex" : 1
+-		},
+-		{
+-			"backtrace" : 1,
+-			"path" : "static_list.h",
+-			"sourceGroupIndex" : 0
+-		},
+-		{
+-			"backtrace" : 1,
+-			"compileGroupIndex" : 0,
+-			"path" : "static_list.c",
+-			"sourceGroupIndex" : 1
+-		}
+-	],
+-	"type" : "EXECUTABLE"
+-}
+Index: cmake-build-debug/Testing/Temporary/LastTest.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Start testing: Mar 14 18:52 Hora est�ndar romance\r\n----------------------------------------------------------\r\nEnd testing: Mar 14 18:52 Hora est�ndar romance\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/cmake-build-debug/Testing/Temporary/LastTest.log b/cmake-build-debug/Testing/Temporary/LastTest.log
+--- a/cmake-build-debug/Testing/Temporary/LastTest.log	(revision c84a23cd7b8301ff9b07b11fdb3ec19f7c0274b7)
++++ b/cmake-build-debug/Testing/Temporary/LastTest.log	(date 1741978629332)
+@@ -1,3 +1,3 @@
+-Start testing: Mar 14 18:52 Hora est�ndar romance
++Start testing: Mar 14 19:57 Hora est�ndar romance
+ ----------------------------------------------------------
+-End testing: Mar 14 18:52 Hora est�ndar romance
++End testing: Mar 14 19:57 Hora est�ndar romance

@@ -1,0 +1,20 @@
+Index: CMakeLists.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#PLEASE, DO NOT CHANGE THIS FILE\r\ncmake_minimum_required(VERSION 3.5)\r\nproject(P1 C)\r\nset(CMAKE_C_STANDARD 99)\r\n\r\ninclude(config.cmake)\r\n\r\nif(impl STREQUAL STATIC)\r\n    add_definitions(-DSTATIC_LIST)\r\n    set(dependencies static_list.h static_list.c)\r\nelseif(impl STREQUAL DYNAMIC)\r\n    add_definitions(-DDYNAMIC_LIST)\r\n    set(dependencies dynamic_list.h dynamic_list.c)\r\nendif()\r\n\r\nset(CMAKE_VERBOSE_MAKEFILE true)\r\nadd_definitions(-DINPUT_FILE=\"${input}\")\r\nadd_executable(main main.c types.h ${dependencies})\r\nadd_executable(test_lists types.h test.c ${dependencies})\r\ntarget_compile_options(main PRIVATE -Wall -Wextra)\r\ntarget_compile_options(test_lists PRIVATE -Wall -Wextra)\r\nset_target_properties(main test_lists PROPERTIES RUNTIME_OUTPUT_DIRECTORY ../bin)\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+--- a/CMakeLists.txt	(revision 1a014a3db2d387de55c1f0a3f738755fd6898a6b)
++++ b/CMakeLists.txt	(date 1742235845570)
+@@ -7,7 +7,8 @@
+ 
+ if(impl STREQUAL STATIC)
+     add_definitions(-DSTATIC_LIST)
+-    set(dependencies static_list.h static_list.c)
++    set(dependencies static_list.h static_list.c
++            static_list.c)
+ elseif(impl STREQUAL DYNAMIC)
+     add_definitions(-DDYNAMIC_LIST)
+     set(dependencies dynamic_list.h dynamic_list.c)

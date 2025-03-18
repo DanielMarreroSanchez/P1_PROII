@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="3" type="long" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17b8ed96-c175-46f6-acd9-fe062189f4e7" name="Changes" comment="Final Static">
+      <change afterPath="$PROJECT_DIR$/listas_punteros.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listas_punteros.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script_minimos/bid.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script_minimos/bid_ref.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script_minimos/delete.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script_minimos/delete_ref.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script_minimos/new.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script_minimos/new_ref.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script_test/ref.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/config.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types.h" beforeDir="false" afterPath="$PROJECT_DIR$/types.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Iagoba-png"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/DanielMarreroSanchez/P1_PROII.git",
+    "accountId": "523140d9-9d41-4fba-a9e0-c9d5025ca2af"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/main.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/static_list.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/static_list.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test.c" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/types.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2uVPdfFnHcVG7q9cfyCxzq693gi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake Application.main.executor": "Run",
+    "CMake Application.test_lists.executor": "Run",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "#6 on main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\EQUIPO\CLionProjects\P1_PROII\script_minimos" />
+      <recent name="C:\Users\EQUIPO\CLionProjects\P1_PROII" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17b8ed96-c175-46f6-acd9-fe062189f4e7" name="Changes" comment="" />
+      <created>1741374236102</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741374236102</updated>
+      <workItem from="1741374237123" duration="3353000" />
+      <workItem from="1741975534637" duration="114000" />
+      <workItem from="1741975654081" duration="194000" />
+      <workItem from="1741978956241" duration="89000" />
+      <workItem from="1742235814014" duration="847000" />
+      <workItem from="1742323960714" duration="6491000" />
+      <workItem from="1742330862069" duration="218000" />
+    </task>
+    <task id="LOCAL-00001" summary="Final Static">
+      <option name="closed" value="true" />
+      <created>1741377363665</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741377363665</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Final Static">
+      <option name="closed" value="true" />
+      <created>1741975620103</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741975620103</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Final Static">
+      <option name="closed" value="true" />
+      <created>1741975733669</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741975733669</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Final Static">
+      <option name="closed" value="true" />
+      <created>1741978733168</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741978733168</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Final Static">
+      <option name="closed" value="true" />
+      <created>1741978768046</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741978768046</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Final Static">
+      <option name="closed" value="true" />
+      <created>1741979001152</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741979001152</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Final Static">
+      <option name="closed" value="true" />
+      <created>1741979020828</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741979020828</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Correccion static" />
+    <MESSAGE value="Final Static" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Static" />
+  </component>
+</project>

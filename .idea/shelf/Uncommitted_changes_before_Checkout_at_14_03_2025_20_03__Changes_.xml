@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_14_03_2025_20_03_[Changes]" date="1741978983539" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_03_2025_20_03_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 14/03/2025 20:03 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/a.exe" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/a.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_03_2025_20_03_[Changes]/a.exe" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_C.bin" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_C.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_03_2025_20_03_[Changes]/CMakeDetermineCompilerABI_C.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="bin/test_lists.exe" />
+    <option name="AFTER_PATH" value="bin/test_lists.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_03_2025_20_03_[Changes]/test_lists.exe" />
+  </binary>
+</changelist>

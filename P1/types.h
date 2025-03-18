@@ -9,7 +9,6 @@ typedef enum {nintendo, sega} tConsoleBrand;
 typedef float tConsolePrice;
 typedef int tBidCounter;
 
-
 typedef struct tItemL {
     tUserId seller;
     tConsoleId consoleId;
