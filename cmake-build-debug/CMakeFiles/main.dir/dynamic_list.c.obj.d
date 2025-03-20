@@ -1,4 +1,4 @@
-CMakeFiles/test_lists.dir/dynamic_list.c.obj: \
+CMakeFiles/main.dir/dynamic_list.c.obj: \
  C:\Users\EQUIPO\CLionProjects\P1_PROII\dynamic_list.c \
  C:\Users\EQUIPO\CLionProjects\P1_PROII\dynamic_list.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdbool.h \
