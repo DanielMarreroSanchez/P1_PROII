@@ -24,7 +24,6 @@
 tList list;
 
 
-
 char *enumtochar(tConsoleBrand b) {
     if (b==nintendo) {
         return "nintendo";
@@ -34,8 +33,9 @@ char *enumtochar(tConsoleBrand b) {
 
 void processCommand(char *commandNumber, char command, char *param1, char *param2, char *param3, char *param4) {
     tItemL item;
-
-
+if(atoi(commandNumber) == 1) {
+    createEmptyList(&list);
+}
     switch (command) {
 
         case 'N':
@@ -48,14 +48,18 @@ void processCommand(char *commandNumber, char command, char *param1, char *param
             else {
                 item.consoleBrand=sega;
             }
-            item.consolePrice=atoi(param4);
+            item.consolePrice=atof(param4);
             item.bidCounter=0;
-            if (insertItem(item,LNULL,&list)==true) {
-                printf("New: console %s seller %s brand %s price %s\n",param1, param2, param3, param4);
+            if(findItem(param1,list)==LNULL) {
+                if (insertItem(item,LNULL,&list)==true) {
+                    printf("New: console %s seller %s brand %s price %s\n",param1, param2, param3, param4);
+                }
             }
             else {
                 printf("+ Error: New not possible\n");
             }
+
+
             break;
 
         case 'D':
@@ -71,18 +75,39 @@ void processCommand(char *commandNumber, char command, char *param1, char *param
             break;
 
         case 'B':
-            printf("********************\n%s %c: console %s bidder %s brand %s price %s\n", commandNumber, command, param1, param2, param3, param4);
+            printf("********************\n%s %c: console %s bidder %s brand %s bid %s\n", commandNumber, command, param1, param2, param3, param4);
+
+            tItemL i=getItem(findItem(param1,list),list);
+            if (i.seller!=param2 || i.consolePrice>=atof(param4) || findItem(param1,list)!=LNULL) {
+                i.consolePrice=atof(param4);
+                i.bidCounter++;
+                printf("* Bid: console %s seller %s brand %s price %.2f bids %d\n", i.consoleId, i.seller, enumtochar(i.consoleBrand), i.consolePrice, i.bidCounter);
+            }
+            else printf("+ Error: Bid not possible\n");
             break;
 
         case 'S':
             printf("********************\n%s %c\n", commandNumber, command);
+            int n=0,s=0;
+            float sumn=0,sums=0;
             tPosL p=first(list);
-            while (p!=LNULL){
 
+            for(p;p!=LNULL;p=next(p,list)) {
                 printf("Console %s seller %s brand %s price %.2f bids %d\n",getItem(p,list).consoleId,getItem(p,list).seller,enumtochar(getItem(p,list).consoleBrand),getItem(p,list).consolePrice,getItem(p,list).bidCounter);
+            }
+            p=first(list);
+            while (p!=LNULL){
+                if(getItem(p,list).consoleBrand==nintendo) {
+                    n++;
+                    sumn+=getItem(p,list).consolePrice;
+                }
+                else {
+                    s++;
+                    sums+=getItem(p,list).consolePrice;
+                }
                 p=next(p,list);
             };
-        printf("Brand     Consoles    Price  Average\nNintendo  %8d %8.2f %8.2f\nSega      %8d %8.2f %8.2f",)
+        printf("Brand     Consoles    Price  Average\nNintendo  %8d %8.2f %8.2f\nSega      %8d %8.2f %8.2f\n", n, sumn, sumn/n, s, sums, sums/s);
             break;
         default:
             break;

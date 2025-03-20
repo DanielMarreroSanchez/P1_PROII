@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/main.exe"
-  "C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/main.exe.manifest"
-  "C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/main.pdb"
+  "C:/Users/USUARIO/CLionProjects/P1_PROII/bin/main.exe"
+  "C:/Users/USUARIO/CLionProjects/P1_PROII/bin/main.exe.manifest"
+  "C:/Users/USUARIO/CLionProjects/P1_PROII/bin/main.pdb"
   "CMakeFiles/main.dir/main.c.obj"
   "CMakeFiles/main.dir/main.c.obj.d"
   "CMakeFiles/main.dir/static_list.c.obj"
