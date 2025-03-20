@@ -85,30 +85,30 @@ CMakeFiles/main.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/main.c.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\EQUIPO\CLionProjects\P1_PROII\main.c -o CMakeFiles\main.dir\main.c.s
 
-CMakeFiles/main.dir/dynamic_list.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/dynamic_list.c.obj: C:/Users/EQUIPO/CLionProjects/P1_PROII/dynamic_list.c
-CMakeFiles/main.dir/dynamic_list.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\EQUIPO\CLionProjects\P1_PROII\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/dynamic_list.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/dynamic_list.c.obj -MF CMakeFiles\main.dir\dynamic_list.c.obj.d -o CMakeFiles\main.dir\dynamic_list.c.obj -c C:\Users\EQUIPO\CLionProjects\P1_PROII\dynamic_list.c
+CMakeFiles/main.dir/static_list.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/static_list.c.obj: C:/Users/EQUIPO/CLionProjects/P1_PROII/static_list.c
+CMakeFiles/main.dir/static_list.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\EQUIPO\CLionProjects\P1_PROII\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/static_list.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/static_list.c.obj -MF CMakeFiles\main.dir\static_list.c.obj.d -o CMakeFiles\main.dir\static_list.c.obj -c C:\Users\EQUIPO\CLionProjects\P1_PROII\static_list.c
 
-CMakeFiles/main.dir/dynamic_list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/dynamic_list.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\EQUIPO\CLionProjects\P1_PROII\dynamic_list.c > CMakeFiles\main.dir\dynamic_list.c.i
+CMakeFiles/main.dir/static_list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/static_list.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\EQUIPO\CLionProjects\P1_PROII\static_list.c > CMakeFiles\main.dir\static_list.c.i
 
-CMakeFiles/main.dir/dynamic_list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/dynamic_list.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\EQUIPO\CLionProjects\P1_PROII\dynamic_list.c -o CMakeFiles\main.dir\dynamic_list.c.s
+CMakeFiles/main.dir/static_list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/static_list.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\EQUIPO\CLionProjects\P1_PROII\static_list.c -o CMakeFiles\main.dir\static_list.c.s
 
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.c.obj" \
-"CMakeFiles/main.dir/dynamic_list.c.obj"
+"CMakeFiles/main.dir/static_list.c.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/main.exe: CMakeFiles/main.dir/main.c.obj
-C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/main.exe: CMakeFiles/main.dir/dynamic_list.c.obj
+C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/main.exe: CMakeFiles/main.dir/static_list.c.obj
 C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/main.exe: CMakeFiles/main.dir/build.make
 C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/main.exe: CMakeFiles/main.dir/linkLibs.rsp
 C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/main.exe: CMakeFiles/main.dir/objects1.rsp

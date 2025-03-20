@@ -76,12 +76,13 @@ void processCommand(char *commandNumber, char command, char *param1, char *param
 
         case 'S':
             printf("********************\n%s %c\n", commandNumber, command);
-            tPosL p=first(list),list;
+            tPosL p=first(list);
             while (p!=LNULL){
 
                 printf("Console %s seller %s brand %s price %.2f bids %d\n",getItem(p,list).consoleId,getItem(p,list).seller,enumtochar(getItem(p,list).consoleBrand),getItem(p,list).consolePrice,getItem(p,list).bidCounter);
                 p=next(p,list);
             };
+        printf("Brand     Consoles    Price  Average\nNintendo  %8d %8.2f %8.2f\nSega      %8d %8.2f %8.2f",)
             break;
         default:
             break;
