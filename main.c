@@ -21,6 +21,7 @@
 #include "static_list.h"
 #endif
 
+tList list;
 
 
 
@@ -32,9 +33,8 @@ char *enumtochar(tConsoleBrand b) {
 }
 
 void processCommand(char *commandNumber, char command, char *param1, char *param2, char *param3, char *param4) {
-    tList list;
     tItemL item;
-    createEmptyList(&list);
+
 
     switch (command) {
 
@@ -50,7 +50,6 @@ void processCommand(char *commandNumber, char command, char *param1, char *param
             }
             item.consolePrice=atoi(param4);
             item.bidCounter=0;
-            insertItem(item,LNULL,&list);
             if (insertItem(item,LNULL,&list)==true) {
                 printf("New: console %s seller %s brand %s price %s\n",param1, param2, param3, param4);
             }
@@ -64,7 +63,7 @@ void processCommand(char *commandNumber, char command, char *param1, char *param
             tItemL item1=getItem(findItem(param1,list),list);
             deleteAtPosition(findItem(param1,list),&list);
             if (findItem(param1,list)==LNULL) {
-                printf("Delete: console %s seller %s brand %s price %f bids %d\n",item1.consoleId,item1.seller,enumtochar(item1.consoleBrand), item1.consolePrice,item1.bidCounter);
+                printf("Delete: console %s seller %s brand %s price %.2f bids %d\n",item1.consoleId,item1.seller,enumtochar(item1.consoleBrand), item1.consolePrice,item1.bidCounter);
             }
             else {
                 printf("+ Error: Delete not possible\n");
@@ -77,11 +76,12 @@ void processCommand(char *commandNumber, char command, char *param1, char *param
 
         case 'S':
             printf("********************\n%s %c\n", commandNumber, command);
-            tPosL p=first(list);
-            do {
-                printf("Console %s seller %s brand %s price %f bids %d\n",getItem(p,list).consoleId,getItem(p,list).seller,enumtochar(getItem(p,list).consoleBrand),getItem(p,list).consolePrice,getItem(p,list).bidCounter);
+            tPosL p=first(list),list;
+            while (p!=LNULL){
+
+                printf("Console %s seller %s brand %s price %.2f bids %d\n",getItem(p,list).consoleId,getItem(p,list).seller,enumtochar(getItem(p,list).consoleBrand),getItem(p,list).consolePrice,getItem(p,list).bidCounter);
                 p=next(p,list);
-            }while (next(p,list)!=LNULL);
+            };
             break;
         default:
             break;

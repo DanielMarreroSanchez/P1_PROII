@@ -10,6 +10,7 @@
 #include "static_list.h"
 #include <string.h>
 #include "stdlib.h"
+static tList list[MAX_ARRAY];
 
 /*  Write your code here...  */
 

@@ -85,30 +85,30 @@ CMakeFiles/test_lists.dir/test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_lists.dir/test.c.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\EQUIPO\CLionProjects\P1_PROII\test.c -o CMakeFiles\test_lists.dir\test.c.s
 
-CMakeFiles/test_lists.dir/static_list.c.obj: CMakeFiles/test_lists.dir/flags.make
-CMakeFiles/test_lists.dir/static_list.c.obj: C:/Users/EQUIPO/CLionProjects/P1_PROII/static_list.c
-CMakeFiles/test_lists.dir/static_list.c.obj: CMakeFiles/test_lists.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\EQUIPO\CLionProjects\P1_PROII\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test_lists.dir/static_list.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_lists.dir/static_list.c.obj -MF CMakeFiles\test_lists.dir\static_list.c.obj.d -o CMakeFiles\test_lists.dir\static_list.c.obj -c C:\Users\EQUIPO\CLionProjects\P1_PROII\static_list.c
+CMakeFiles/test_lists.dir/dynamic_list.c.obj: CMakeFiles/test_lists.dir/flags.make
+CMakeFiles/test_lists.dir/dynamic_list.c.obj: C:/Users/EQUIPO/CLionProjects/P1_PROII/dynamic_list.c
+CMakeFiles/test_lists.dir/dynamic_list.c.obj: CMakeFiles/test_lists.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\EQUIPO\CLionProjects\P1_PROII\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test_lists.dir/dynamic_list.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_lists.dir/dynamic_list.c.obj -MF CMakeFiles\test_lists.dir\dynamic_list.c.obj.d -o CMakeFiles\test_lists.dir\dynamic_list.c.obj -c C:\Users\EQUIPO\CLionProjects\P1_PROII\dynamic_list.c
 
-CMakeFiles/test_lists.dir/static_list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_lists.dir/static_list.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\EQUIPO\CLionProjects\P1_PROII\static_list.c > CMakeFiles\test_lists.dir\static_list.c.i
+CMakeFiles/test_lists.dir/dynamic_list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_lists.dir/dynamic_list.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\EQUIPO\CLionProjects\P1_PROII\dynamic_list.c > CMakeFiles\test_lists.dir\dynamic_list.c.i
 
-CMakeFiles/test_lists.dir/static_list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_lists.dir/static_list.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\EQUIPO\CLionProjects\P1_PROII\static_list.c -o CMakeFiles\test_lists.dir\static_list.c.s
+CMakeFiles/test_lists.dir/dynamic_list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_lists.dir/dynamic_list.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\EQUIPO\CLionProjects\P1_PROII\dynamic_list.c -o CMakeFiles\test_lists.dir\dynamic_list.c.s
 
 # Object files for target test_lists
 test_lists_OBJECTS = \
 "CMakeFiles/test_lists.dir/test.c.obj" \
-"CMakeFiles/test_lists.dir/static_list.c.obj"
+"CMakeFiles/test_lists.dir/dynamic_list.c.obj"
 
 # External object files for target test_lists
 test_lists_EXTERNAL_OBJECTS =
 
 C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/test_lists.exe: CMakeFiles/test_lists.dir/test.c.obj
-C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/test_lists.exe: CMakeFiles/test_lists.dir/static_list.c.obj
+C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/test_lists.exe: CMakeFiles/test_lists.dir/dynamic_list.c.obj
 C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/test_lists.exe: CMakeFiles/test_lists.dir/build.make
 C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/test_lists.exe: CMakeFiles/test_lists.dir/linkLibs.rsp
 C:/Users/EQUIPO/CLionProjects/P1_PROII/bin/test_lists.exe: CMakeFiles/test_lists.dir/objects1.rsp
