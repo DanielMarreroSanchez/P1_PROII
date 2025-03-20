@@ -78,7 +78,7 @@ if(atoi(commandNumber) == 1) {
             printf("********************\n%s %c: console %s bidder %s brand %s bid %s\n", commandNumber, command, param1, param2, param3, param4);
 
             tItemL i=getItem(findItem(param1,list),list);
-            if (i.seller!=param2 || i.consolePrice>=atof(param4) || findItem(param1,list)!=LNULL) {
+            if (i.seller!=param2 && i.consolePrice>atof(param4) && findItem(param1,list)!=LNULL) {
                 i.consolePrice=atof(param4);
                 i.bidCounter++;
                 printf("* Bid: console %s seller %s brand %s price %.2f bids %d\n", i.consoleId, i.seller, enumtochar(i.consoleBrand), i.consolePrice, i.bidCounter);

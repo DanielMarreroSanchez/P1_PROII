@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/USUARIO/CLionProjects/P1_PROII/dynamic_list.c" "CMakeFiles/main.dir/dynamic_list.c.obj" "gcc" "CMakeFiles/main.dir/dynamic_list.c.obj.d"
   "C:/Users/USUARIO/CLionProjects/P1_PROII/main.c" "CMakeFiles/main.dir/main.c.obj" "gcc" "CMakeFiles/main.dir/main.c.obj.d"
-  "C:/Users/USUARIO/CLionProjects/P1_PROII/static_list.c" "CMakeFiles/main.dir/static_list.c.obj" "gcc" "CMakeFiles/main.dir/static_list.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

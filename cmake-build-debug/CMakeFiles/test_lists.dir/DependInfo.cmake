@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/USUARIO/CLionProjects/P1_PROII/static_list.c" "CMakeFiles/test_lists.dir/static_list.c.obj" "gcc" "CMakeFiles/test_lists.dir/static_list.c.obj.d"
+  "C:/Users/USUARIO/CLionProjects/P1_PROII/dynamic_list.c" "CMakeFiles/test_lists.dir/dynamic_list.c.obj" "gcc" "CMakeFiles/test_lists.dir/dynamic_list.c.obj.d"
   "C:/Users/USUARIO/CLionProjects/P1_PROII/test.c" "CMakeFiles/test_lists.dir/test.c.obj" "gcc" "CMakeFiles/test_lists.dir/test.c.obj.d"
   )
 
